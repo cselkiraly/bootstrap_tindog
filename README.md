@@ -1,2 +1,1 @@
-# bootstrap_tindog
-webdev course
+TinDog Starting Files
