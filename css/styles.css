@@ -1,0 +1,131 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    margin-left: 1rem; margin-top: 2rem;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.iphone {
+    padding-top: 2rem;
+    width: 60%;
+    transform: rotate(30deg);
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-left: 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    margin-left:1rem;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download Buttons */
+.download-button{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+/* Features */
+#features {
+    padding-left: 12%; padding-right: 12%; padding-top: 8%;
+}
+
+.feature-column {
+    text-align: center;
+}
+
+.feature_symbol {
+    color: salmon;
+    font-size: 450%;
+    padding-bottom: 1rem;
+}
+
+.feature_symbol:hover {
+    color:#ff4c68;
+}
+
+.feature-slogan {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.feature-description {
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding-left: 12%; padding-right: 12%; padding-top: 4%; padding-bottom: 4%;
+    margin-top: 4rem;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.testimonial-text {
+    clear: left;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 5rem;
+    line-height: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+.testimonial-row {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.person-text {
+    font-size: 2rem;
+    color: gray;
+}
+
+/* Press */
+#press {
+    padding-left: 2%; padding-right: 2%; padding-top: 4%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.hr-press {
+    width: 100%;
+} 
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
