@@ -122,37 +122,50 @@
 
 
   <!-- Pricing -->
-
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
+    <h2 class="pricing-header">A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active chihuahua-slide">
+          <h3 class="package-header">Chihuahua</h3>
+          <h2>Free</h2>
+          <p class="package-item">5 Matches Per Day ✅</p>
+          <p class="package-item">10 Messages Per Day ✅</p>
+          <p class="package-item">Unlimited App Usage ✅</p>
+          <button type="button">Sign Up</button>
+        </div>
+        <div class="carousel-item labrador-slide">
+          <h3 class="package-header">Labrador</h3>
+          <h2>$49 / mo</h2>
+          <p class="package-item">Unlimited Matches ✅</p>
+          <p class="package-item">Unlimited Messages ✅</p>
+          <p class="package-item">Unlimited App Usage ✅</p>
+          <button type="button">Sign Up</button>        </div>
+        <div class="carousel-item mastiff-slide">
+          <h3 class="package-header">Mastiff</h3>
+          <h2>$99 / mo</h2>
+          <p class="package-item">Pirority Listing ✅</p>
+          <p class="package-item">Unlimited Matches ✅</p>
+          <p class="package-item">Unlimited Messages ✅</p>
+          <p class="package-item">Unlimited App Usage ✅</p>
+          <button type="button">Sign Up</button>        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
 

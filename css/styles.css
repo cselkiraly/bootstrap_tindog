@@ -129,3 +129,38 @@ h2 {
     margin: 20px 20px 50px;
     width: 15%;
 }
+
+/* Pricing */
+#pricing {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.pricing-header {
+    font-family: "Ubuntu";
+}
+
+.package-header {
+    font-size: 2.4rem;
+}
+
+.package-item {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.carousel-inner {
+    height: 30rem;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    background-color: #ff4c68;
+}
+
+.carousel-item {
+    padding-top: 1.5%;
+}
+
+.carousel-control-next-icon {
+    color: blue;
+}
