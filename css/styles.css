@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 2% 10% 8%;
 }
 
 #title {
@@ -21,8 +21,9 @@ h1 {
 
 .iphone {
     padding-top: 2rem;
-    width: 60%;
+    width: 30%;
     transform: rotate(30deg);
+    position: absolute;
 }
 
 /* Navigation Bar */
@@ -52,7 +53,10 @@ h1 {
 
 /* Features */
 #features {
-    padding-left: 12%; padding-right: 12%; padding-top: 8%;
+    padding-left: 12%; padding-right: 12%; padding-top: 8%; padding-bottom: 8%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-column {
@@ -62,7 +66,6 @@ h1 {
 .feature_symbol {
     color: salmon;
     font-size: 450%;
-    padding-bottom: 1rem;
 }
 
 .feature_symbol:hover {
@@ -83,7 +86,6 @@ h1 {
 
 #testimonials {
     padding-left: 12%; padding-right: 12%; padding-top: 4%; padding-bottom: 4%;
-    margin-top: 4rem;
     background-color: #ef8172;
 }
 
@@ -130,8 +132,8 @@ h2 {
     width: 15%;
 }
 
-/* Pricing */
-#pricing {
+/* Pricing-carousel */
+#pricing-carousel {
     text-align: center;
     padding-top: 4%;
 }
@@ -163,4 +165,35 @@ h2 {
 
 .carousel-control-next-icon {
     color: blue;
+}
+
+/* Pricing-cards */
+#pricing-cards {
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.card {
+    margin: 5%;
+}
+
+.card-package-header {
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.card-package-item {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    display: table-cell;
 }
