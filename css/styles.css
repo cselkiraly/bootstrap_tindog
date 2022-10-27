@@ -204,14 +204,8 @@ h2 {
     font-size: 1.25rem;
 }
 
-.col-container {
-    display: table;
-    width: 100%;
-}
-
 .pricing-column {
     padding: 3% 2%;
-    display: table-cell;
 }
 
 /* Call to action */
