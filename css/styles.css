@@ -1,22 +1,36 @@
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .container-fluid {
-    padding: 2% 10% 8%;
+    padding-left: 12%; padding-right: 12%; padding-top: 4%; padding-bottom: 4%;
+}
+
+
+/* Headers */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.big-heading {    
+    font-size: 3.8rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Montserrat-Black';
+    color: white
+}
+
+.item-heading {
+    font-size: 2.4rem;
 }
 
 #title {
     background-color: #ff4c68;
     color: white;
-}
-
-h1 {
-    margin-left: 1rem; margin-top: 2rem;
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3.8rem;
-    line-height: 1.5;
-    font-weight: bolder;
 }
 
 .iphone {
@@ -55,7 +69,6 @@ h1 {
 
 /* Features */
 #features {
-    padding-left: 12%; padding-right: 12%; padding-top: 8%; padding-bottom: 8%;
     background-color: white;
     position: relative;
     z-index: 1;
@@ -74,11 +87,6 @@ h1 {
     color:#ff4c68;
 }
 
-.feature-slogan {
-    font-family: 'Montserrat';
-    font-weight: bold;
-}
-
 .feature-description {
     color: #8f8f8f;
     font-weight: bold;
@@ -87,7 +95,6 @@ h1 {
 /* Testimonials */
 
 #testimonials {
-    padding-left: 12%; padding-right: 12%; padding-top: 4%; padding-bottom: 4%;
     background-color: #ef8172;
 }
 
@@ -95,13 +102,8 @@ h1 {
     border-radius: 100%;
 }
 
-h2 {
-    font-size: 3rem;
-}
-
 .testimonial-text {
     clear: left;
-    font-family: 'Montserrat-Black', sans-serif;
     font-size: 5rem;
     line-height: 0;
     color: white;
@@ -140,14 +142,6 @@ h2 {
     padding-top: 4%;
 }
 
-.pricing-header {
-    font-family: "Ubuntu";
-}
-
-.package-header {
-    font-size: 2.4rem;
-}
-
 .package-item {
     font-size: 2rem;
     font-weight: bold;
@@ -175,13 +169,12 @@ h2 {
     text-align: center;
 }
 
+#pricing-cards .section-heading {
+    font-family: "Ubuntu";
+    color: black;
+}
 .card {
     margin: 5%;
-}
-
-.card-package-header {
-    font-weight: bold;
-    font-size: 2.4rem;
 }
 
 .card-package-item {
@@ -206,13 +199,6 @@ h2 {
     text-align: center;
     padding: 6% 25% 6%;
     background-color: #ff4c68;
-}
-
-.cta-header {
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Montserrat-Black';
-    color: white
 }
 
 .cta-button {
