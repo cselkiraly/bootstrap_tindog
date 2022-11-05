@@ -37,9 +37,23 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 2rem;
     width: 20%;
     transform: rotate(30deg);
-    position: absolute;
-    right: 25%;
-    top: 25%;
+    position: absolute; 
+    right: 25%; top: 25%;
+}
+
+@media (max-width: 1216px) {
+.iphone {
+    width: 40%;
+    position: static;
+    transform: rotate(0deg);
+    margin-left: auto; margin-right: auto; margin-top: 3rem;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+    
 }
 
 /* Navigation Bar */
@@ -183,14 +197,8 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 1.25rem;
 }
 
-.col-container {
-    display: table;
-    width: 100%;
-}
-
 .pricing-column {
     padding: 3% 2%;
-    display: table-cell;
 }
 
 /* Call to action */
